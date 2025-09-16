@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.7;
+  background: #f9f9f9;
+  color: #222;
+  text-align: left;
+}
+
+header {
+  background: #e3e3e3;
+  padding: 20px;
+  border-bottom: 2px solid #ccc;
+}
+
+header .profile {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.profile-photo {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #555;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 20pt;
+  color: #222;
+}
+
+header p {
+  margin: 5px ;
+  color: #555;
+}
+
+nav {
+  margin-top: 20px;
+}
+
+nav a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #0073e6;
+}
+
+main, aside {
+  padding: 20px;
+}
+
+h2 {
+  margin-top: 0;
+  border-left: 3px solid #0073e6;
+  padding-left: 10px;
+  color: #0073e6;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+table, th, td {
+  border: 2px solid #ccc;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background: #f0f0f0;
+}
+
+ul, ol {
+  margin: 10px 20px 20px;
+}
+
+aside {
+  background: #f0f0f0;
+  padding: 20px;
+  border-top: 2px solid #ccc;
+}
+
+aside a {
+  color: #0073e6;
+  text-decoration: none;
+}
+
+aside a:hover {
+  text-decoration: underline;}
+
+footer {
+  background: #ddd;
+  padding: 15px;
+  text-align: left;
+  font-size: 10pt;
+  color: #444;
+}
